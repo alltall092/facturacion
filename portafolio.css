@@ -1,4 +1,10 @@
 
+nav{
+margin-top:5px;
+padding:5px;
+
+
+}
 body{
 background-color:#1F1D2C;
 
@@ -175,4 +181,50 @@ text-align:center;
 
   font-size:10px;
 }
+.menu a:hover{
+color:orange;
+
+}
+.active{
+
+color:orange;
+
+
+}
+
+@media screen and (max-width: 500px) {
+  .menu a{
+
+font-size:7px;
+
+
+  }
+  .imagen{
+    width:auto;
+    height:200px;
+    
+  }
+.imagenes{
+  width:auto;
+  height:150px;
+  margin:5px;
+  padding:5px;
+
+}
+.icon{
+  width:auto;
+  height:50px;
+  margin:5px;
+  padding: 5px;
+
+
+}
+.item5{
+position:center;
+
+}
+
+}
+
+
     
